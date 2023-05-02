@@ -1,21 +1,21 @@
 import React, { useState } from 'react'
 import styled from 'styled-components';
-import { GiCandleFlame } from "react-icons/gi";
+import { GiCircuitry } from "react-icons/gi";
 
 const Header = () => {
     const [bar, setBar] = useState(false);
   return (
     <Container bar={bar}>
         <Logo>
-            <span className='green'><GiCandleFlame/></span>
-            <h1>Portfolio</h1>
+            <span className='text-blue'><GiCircuitry></GiCircuitry></span>
+            <h1>J. Escartin</h1>
         </Logo>
         <Nav bar={bar}>
-            <span><a href="#home">Home</a></span>
-            <span><a href="#service">Services</a></span>
-            <span><a href="#project">Projects</a></span>
+            <span><a href="#home">Welcome</a></span>
+            <span><a href="#service">My Story</a></span>
+            <span><a href="#project">Porfolio</a></span>
             <span><a href="#client">Testimonials</a></span>
-            <span><a href="#footer">Portfolio</a></span>
+            <span><a href="#footer">Get Started</a></span>
         </Nav>
         <div
         onClick={() => setBar(!bar)}
@@ -32,6 +32,7 @@ const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
     max-width: 1280px;
     width: 80%;
     margin: 0 auto;

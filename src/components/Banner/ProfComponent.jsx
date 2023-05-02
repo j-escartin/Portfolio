@@ -1,57 +1,39 @@
 import React from "react";
 import styled from "styled-components";
-import { AiOutlineInstagram } from "react-icons/ai";
-import { GiEarthAmerica } from "react-icons/gi";
-import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
+import aboutProfile from "../../img/aboutProfile.png"
 
 const ProfComponent = () => {
   return (
-    <Container id="home">
-      <Slide direction="left">
-        <Texts>
-          <h4>
-            Hello <span className="green">I'am</span>
-          </h4>
-          <h1 className="green">Milad Amiri</h1>
-          <h3>UX/UI Designer and graphic designer</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-            iusto. Adipisci in qui officia provident tenetur sequi, deserunt
-            corporis quos?
-          </p>
-          <button>Let's talk</button>
-          <Social>
-            <p>Check out my</p>
-            <div className="social-icons">
-              <span>
-                <a href="/">
-                  <AiOutlineInstagram />
-                </a>
-              </span>
-              <span>
-                <a href="/">
-                  <GiEarthAmerica />
-                </a>
-              </span>
-              <span>
-                <a href="/">
-                  <FaLinkedinIn />
-                </a>
-              </span>
-            </div>
-          </Social>
-        </Texts>
-      </Slide>
-      <Slide direction="right">
-        <Profile>
-          <img
-            src="https://res.cloudinary.com/ghazni/image/upload/v1659082282/Yt-portfolio/Untitled-1_drcspz.png"
-            alt="profile"
-          />
-        </Profile>
-      </Slide>
-    </Container>
+    <>
+      <Container id="home">
+        <Slide direction="left">
+          <Texts>
+            <h4>
+              Hello <span className="text-blue">I'am</span>
+            </h4>
+            <h1 className="text-blue">James Vincent Escartin</h1>
+            <h3>Software Engineer | Full Stack Web Developer </h3>
+            <p>
+              Passionate for creating innovative digital experiences. With a focus on crafting custom web applications 
+              and enterprise solutions,
+              I specialize in delivering high-quality software solutions that exceed expectations.
+              Let's collaborate and bring your vision to life! 
+            </p>
+            <button>Resume</button>
+            <button>Intro Video</button>
+          </Texts>
+        </Slide>
+        <Slide direction="right">
+          <Profile>
+            <img
+              src={aboutProfile}
+              alt="profile"
+            />
+          </Profile>
+        </Slide>
+      </Container>
+    </>
   );
 };
 
@@ -81,7 +63,7 @@ const Texts = styled.div`
   }
   h1 {
     font-size: 2rem;
-    font-family: "Secular One", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
   }
   h3 {
@@ -97,54 +79,17 @@ const Texts = styled.div`
   button {
     padding: 0.7rem 2rem;
     margin-top: 3rem;
+    margin-right: 1rem;
     cursor: pointer;
-    background-color: #01be96;
+    background-color: #0077B6;
     border: none;
+    border-radius: 10px;
     color: #fff;
     font-weight: 500;
-    filter: drop-shadow(0px 10px 10px #01be9551);
-    :hover {
-      filter: drop-shadow(0px 10px 10px #01be9570);
     }
   }
 `;
-const Social = styled.div`
-  margin-top: 3rem;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  p {
-    font-size: 0.9rem;
-    @media (max-width: 690px) {
-      font-size: 0.7rem;
-    }
-  }
 
-  .social-icons {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    span {
-      width: 2.3rem;
-      height: 2rem;
-      clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-      background-color: #01be96;
-      position: relative;
-      transition: transform 400ms ease-in-out;
-      :hover {
-        transform: rotate(360deg);
-      }
-    }
-
-    a {
-      color: #fff;
-      position: absolute;
-      top: 55%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-  }
-`;
 const Profile = styled.div`
   img {
     width: 25rem;
