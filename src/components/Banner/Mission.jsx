@@ -1,42 +1,41 @@
 import React from "react";
 import styled from "styled-components";
 import { Slide } from "react-awesome-reveal";
-import aboutProfile from "../../img/aboutProfile.png"
 
 
-const Background = () => {
+
+const Mission = () => {
   return(
     <>
       <Container>
         <Slide direction="left">
-          
-         <Profile>
+         <Texts>
+            <h1 className="text-blue">Mission</h1>
+            <br/>
+            <p>
+              My mission is to revolutionize the field of robotics by creating intelligent machines that 
+              work in harmony with humans to solve complex problems. I am committed to making the lives of people around 
+              the world more awesome and effortless, by developing robots that can assist and augment human capabilities. 
+              Through cutting-edge technology and innovation, my goal is to empower individuals and organizations with the tools 
+              they need to achieve greater success and productivity. With a focus on user-centered design and ethical practices, 
+              I strive to create a future where humans and robots can coexist harmoniously to create a better world.
+            </p>
+          </Texts>
+        </Slide>
+        <Slide direction="right">
+          <Profile>
             <img
-              src="https://cdn3d.iconscout.com/3d/premium/thumb/movie-script-4843374-4060940.png"
+              src=" https://static.vecteezy.com/system/resources/previews/013/866/250/original/mission-3d-rendering-isometric-icon-png.png"
               alt="profile"
             />
           </Profile>
-        </Slide>
-        <Slide direction="right">
-          <Texts>
-            <h1 className="text-blue">Background</h1>
-            <br/>
-            <p>
-              I'm a budding software engineer currently pursuing an Applied Degree in Software Engineering at Lithan Academy 
-              and soon to take a Bachelor's Degree in Computer Science at Roehampton University. I recently graduated 
-              from Sisters of Mary School-Boystown, Inc. with a strong passion for technology and a desire to make a difference 
-              in the world of software engineering. Throughout my time at Lithan Academy, I am gaining valuable hands-on experience 
-              developing software solutions for real-world problems, using programming languages such as Java. I'm excited to continue 
-              building on this foundation and further develop my skills as a software engineer.
-            </p>
-          </Texts>
         </Slide>
       </Container>
     </>
   )
 }
 
-export default Background;
+export default Mission;
 
 const Container = styled.div`
 display: flex;

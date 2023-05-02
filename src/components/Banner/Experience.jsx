@@ -1,10 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { Slide } from "react-awesome-reveal";
-import aboutProfile from "../../img/aboutProfile.png"
 
 
-const Background = () => {
+const Experience = () => {
   return(
     <>
       <Container>
@@ -12,22 +11,53 @@ const Background = () => {
           
          <Profile>
             <img
-              src="https://cdn3d.iconscout.com/3d/premium/thumb/movie-script-4843374-4060940.png"
+              src="https://cdn3d.iconscout.com/3d/premium/thumb/panorama-experience-4787848-3986060.png"
               alt="profile"
             />
           </Profile>
         </Slide>
         <Slide direction="right">
           <Texts>
-            <h1 className="text-blue">Background</h1>
+            <h1 className="text-blue">Experience</h1>
             <br/>
+            <h4>January 2022 – Present <br/>
+              Research Assistant – Part Time
+            </h4>
             <p>
-              I'm a budding software engineer currently pursuing an Applied Degree in Software Engineering at Lithan Academy 
-              and soon to take a Bachelor's Degree in Computer Science at Roehampton University. I recently graduated 
-              from Sisters of Mary School-Boystown, Inc. with a strong passion for technology and a desire to make a difference 
-              in the world of software engineering. Throughout my time at Lithan Academy, I am gaining valuable hands-on experience 
-              developing software solutions for real-world problems, using programming languages such as Java. I'm excited to continue 
-              building on this foundation and further develop my skills as a software engineer.
+              <ul>
+                <li>
+                  Contributed to research papers and reports.
+                </li>
+                <li>
+                  Collected and analysed data utilizing a variety of methods, including surveys, interviews, and focus groups.
+                </li>
+                <li>
+                  Collaborated with other researchers to execute various projects.
+                </li>
+                <li>
+                  Accomplished all research tasks within budget and on schedule.
+                </li>
+              </ul>
+            </p>
+            <h4>July 2021 – December 2021<br/>
+              Mass and Media Intern
+              Sisters of Mary School – Boystown, Inc.         
+            </h4>
+            <p>
+              <ul>
+                <li>
+                  Researched and crafted news articles, features, and blog posts.
+                </li>
+                <li>
+                  Produced and refined social media content.
+                </li>
+                <li>
+                  Organized and executed events.
+                </li>
+                <li>
+                  Worked closely with other interns and staff members to achieve project goals.
+                </li>
+              </ul>
             </p>
           </Texts>
         </Slide>
@@ -36,7 +66,7 @@ const Background = () => {
   )
 }
 
-export default Background;
+export default Experience;
 
 const Container = styled.div`
 display: flex;

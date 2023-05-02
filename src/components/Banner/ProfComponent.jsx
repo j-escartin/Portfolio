@@ -2,6 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import { Slide } from "react-awesome-reveal";
 import aboutProfile from "../../img/aboutProfile.png"
+import Background from "./Background";
+
+import Vision from "./Vision";
+import Mission from "./Mission";
+import Values from "./Values";
+import Experience from "./Experience";
+import Interest from "./Interest";
 
 const ProfComponent = () => {
   return (
@@ -33,6 +40,12 @@ const ProfComponent = () => {
           </Profile>
         </Slide>
       </Container>
+      <Background/>
+      <Mission/>
+      <Vision/>
+      <Values/>
+      <Experience/>
+      <Interest/>
     </>
   );
 };
@@ -74,6 +87,8 @@ const Texts = styled.div`
   }
   p {
     font-weight: 300;
+    text-align: justify:
+    line-height: 1.5;
   }
 
   button {

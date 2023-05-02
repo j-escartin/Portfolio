@@ -1,10 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { Slide } from "react-awesome-reveal";
-import aboutProfile from "../../img/aboutProfile.png"
 
 
-const Background = () => {
+const Vision = () => {
   return(
     <>
       <Container>
@@ -12,22 +11,23 @@ const Background = () => {
           
          <Profile>
             <img
-              src="https://cdn3d.iconscout.com/3d/premium/thumb/movie-script-4843374-4060940.png"
+              src="https://cdn3d.iconscout.com/3d/premium/thumb/businessman-with-vision-4999857-4165683.png"
               alt="profile"
             />
           </Profile>
         </Slide>
         <Slide direction="right">
           <Texts>
-            <h1 className="text-blue">Background</h1>
+            <h1 className="text-blue">Vision</h1>
             <br/>
             <p>
-              I'm a budding software engineer currently pursuing an Applied Degree in Software Engineering at Lithan Academy 
-              and soon to take a Bachelor's Degree in Computer Science at Roehampton University. I recently graduated 
-              from Sisters of Mary School-Boystown, Inc. with a strong passion for technology and a desire to make a difference 
-              in the world of software engineering. Throughout my time at Lithan Academy, I am gaining valuable hands-on experience 
-              developing software solutions for real-world problems, using programming languages such as Java. I'm excited to continue 
-              building on this foundation and further develop my skills as a software engineer.
+              My vision is to transform the way humans interact with technology by creating robots that 
+              seamlessly integrate into our daily lives. I see a future where intelligent machines work alongside 
+              humans to solve complex problems, enhance our capabilities, and make the world a better place. 
+              Through relentless innovation and a commitment to ethical practices, 
+              I aim to create a world where robots are trusted partners and valuable members of our society. 
+              By harnessing the power of technology to improve human experience, my vision is to create a brighter, 
+              more prosperous future for all.
             </p>
           </Texts>
         </Slide>
@@ -36,7 +36,7 @@ const Background = () => {
   )
 }
 
-export default Background;
+export default Vision;
 
 const Container = styled.div`
 display: flex;

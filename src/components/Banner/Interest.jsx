@@ -1,42 +1,54 @@
 import React from "react";
 import styled from "styled-components";
 import { Slide } from "react-awesome-reveal";
-import aboutProfile from "../../img/aboutProfile.png"
 
 
-const Background = () => {
+
+const Interest = () => {
   return(
     <>
       <Container>
         <Slide direction="left">
-          
-         <Profile>
+         <Texts>
+            <h1 className="text-blue">Interest and Hobbies</h1>
+            <br/>
+            <h4>
+              Students’ Profiling System 
+            </h4>
+            <p>
+              <span className="text-blue">Status: </span> Ongoing <br/>
+              <span className="text-blue">Helped Institution: </span> Sisters of Mary School - Boystown, Inc.
+            </p>
+            <h4>
+              Read More than 10 Books 
+            </h4>
+            <p>
+              <span className="text-blue">Genre: </span> Non-Fiction 
+              (Leadership, Personal Development, Psychology, Entrepreneurship, etc.) <br/>
+            </p>
+            <h4>
+              Participated 60-Earth Hour Virtual Run 
+            </h4>
+            <p>
+              <span className="text-blue">Distance: </span> 60 Kilometers <br/>
+              <span className="text-blue">Time Span: </span> March 25, 2023 - April 30, 2023
+            </p>
+          </Texts>
+        </Slide>
+        <Slide direction="right">
+          <Profile>
             <img
-              src="https://cdn3d.iconscout.com/3d/premium/thumb/movie-script-4843374-4060940.png"
+              src="https://cdn3d.iconscout.com/3d/premium/thumb/kids-playing-video-games-5581385-4674262.png"
               alt="profile"
             />
           </Profile>
-        </Slide>
-        <Slide direction="right">
-          <Texts>
-            <h1 className="text-blue">Background</h1>
-            <br/>
-            <p>
-              I'm a budding software engineer currently pursuing an Applied Degree in Software Engineering at Lithan Academy 
-              and soon to take a Bachelor's Degree in Computer Science at Roehampton University. I recently graduated 
-              from Sisters of Mary School-Boystown, Inc. with a strong passion for technology and a desire to make a difference 
-              in the world of software engineering. Throughout my time at Lithan Academy, I am gaining valuable hands-on experience 
-              developing software solutions for real-world problems, using programming languages such as Java. I'm excited to continue 
-              building on this foundation and further develop my skills as a software engineer.
-            </p>
-          </Texts>
         </Slide>
       </Container>
     </>
   )
 }
 
-export default Background;
+export default Interest; 
 
 const Container = styled.div`
 display: flex;
