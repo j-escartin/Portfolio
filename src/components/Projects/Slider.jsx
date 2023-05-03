@@ -3,28 +3,55 @@ import Slider from 'react-slick';
 import Project from './Project';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styled from 'styled-components';
+import module1 from "../../img/m1.png";
+import module2 from "../../img/m2.png";
+import module3 from "../../img/m3.png";
+import module4 from "../../img/m4.png";
+import module5 from "../../img/m5.png";
+import module6 from "../../img/m6.png";
+import module7 from "../../img/m7.png";
+import module8 from "../../img/m8.png";
+import module9 from "../../img/m9.png";
+
+
 
 let data = [
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : module1,
+        disc : "ABC Learning, Inc. Website Development"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324074/Yt-portfolio/ui4_jku3ol.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : module2,
+        disc : "MCQ System"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323981/Yt-portfolio/ui2_wtollo.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : module3,
+        disc : "UI Design for by ABC Jobs Pte Ltd"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : module4,
+        disc : "ABC Jobs Pte Ltd. Database Design"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323979/Yt-portfolio/ui1_n3uiaz.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
-    }
+        img : module5,
+        disc : "Develop and Implemented ABC Jobs Pte Ltd."
+    },
+    {
+        img : module6,
+        disc : "Tripple-A  Website"
+    },
+    {
+      img : module7,
+      disc : "ABC Cars Pte Ltd Portal"
+    },
+    {
+      img : module8,
+      disc : "Know Your Neighborhood Website"
+     },
+     {
+      img : module9,
+      disc : "Meals on Wheels Web Application"
+     }
 ];
 
 var settings = {

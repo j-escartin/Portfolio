@@ -7,9 +7,9 @@ const Project = (props) => {
     <Container className='project'>
         <img src={img} alt="project" />
         <div className="disc">
-            <h1>Description</h1>
+            <h1>Project Title</h1>
             <p>{disc}
-            <a href="/">demo</a>
+            <a href="/">Explore</a>
             </p>
         </div>
     </Container>
@@ -51,7 +51,7 @@ const Container = styled.div`
             font-size: 0.8rem;
             a{
                 margin-left: 0.4rem;
-                color: red;
+                color: #90E0EF;
             }
         }
     }
