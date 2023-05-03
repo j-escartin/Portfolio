@@ -18,11 +18,13 @@ import module9 from "../../img/m9.png";
 let data = [
     {
         img : module1,
-        disc : "ABC Learning, Inc. Website Development"
+        disc : "ABC Learning, Inc. Website Development",
+        link : "https://github.com/j-escartin/ABC-Learning-Center.git"
     },
     {
         img : module2,
-        disc : "MCQ System"
+        disc : "MCQ System",
+        link: ""
     },
     {
         img : module3,
