@@ -21,7 +21,6 @@ const ClientSlider = (props) => {
             {disc}
         </Body>
         <Footer>
-            <img src={img_url} alt={name} />
             <div className="details">
                 <h1>{name}</h1>
                 <p>{position}</p>
@@ -45,7 +44,7 @@ const Header = styled.div`
     justify-content: space-between;
     .quote{
         font-size: 3rem;
-        color: #01be96;
+        color: #90E0EF;
         opacity: 0.7;
     }
 
@@ -57,6 +56,9 @@ const Header = styled.div`
 const Body = styled.p`
     font-size: 0.8rem;
     margin-bottom: 1.5rem;
+    text-align: justify;
+    line-height: 1.5
+    
 `
 const Footer = styled.div`
     display: flex;

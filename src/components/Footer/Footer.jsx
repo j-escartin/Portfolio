@@ -19,26 +19,26 @@ const Footer = () => {
     <Container id="footer">
       <Profile>
         <Slide direction="left" delay={1}>
-          <h1>Portfolio</h1>
+          <h1>Contact Infomation</h1>
         </Slide>
         <div className="address">
           <Slide direction="left">
             <h1>Address:</h1>
           </Slide>
           <Slide direction="left">
-            <p>1030 Southwood Dr San Luis Obispo, California(CA), 93401</p>
+            <p>Tungkop, Minglanilla, Cebu, Philippines</p>
           </Slide>
         </div>
         <div className="links">
           <Slide direction="left">
-            <h1>Contact me directly:</h1>
+            <h1>Message me directly:</h1>
           </Slide>
           <div>
             <span>
               <FiPhoneCall />
             </span>
             <Slide direction="left">
-              <a href="tel:+4733378901">+47 333 78 901</a>
+              <a href="tel:+4733378901">+63 906 5380 249</a>
             </Slide>
           </div>
           <div>
@@ -48,7 +48,7 @@ const Footer = () => {
               </span>
             </Slide>
             <Slide>
-              <a href="mailto:miladamiri@gmail.com">miladamiri@gmail.com</a>
+              <a href="mailto:miladamiri@gmail.com">javines2403@gmail.com</a>
             </Slide>
           </div>
         </div>
@@ -59,29 +59,15 @@ const Footer = () => {
           <div className="icons">
             <Zoom>
               <span>
-                <a href="/">
+                <a href="https://github.com/j-escartin">
                   <AiFillGithub />
                 </a>
               </span>
             </Zoom>
             <Zoom>
               <span>
-                <a href="/">
+                <a href="https://www.linkedin.com/in/james-vincent-escartin-b350b1241/">
                   <AiFillLinkedin />
-                </a>
-              </span>
-            </Zoom>
-            <Zoom>
-              <span>
-                <a href="/">
-                  <BsFacebook />
-                </a>
-              </span>
-            </Zoom>
-            <Zoom>
-              <span>
-                <a href="/">
-                  <BsSlack />
                 </a>
               </span>
             </Zoom>
@@ -173,7 +159,7 @@ const Profile = styled.div`
         text-decoration: none;
         color: lightgray;
         :hover {
-          color: orange;
+          color: #90E0EF;
         }
       }
     }
@@ -188,19 +174,20 @@ const Profile = styled.div`
     .icons {
       display: flex;
       align-items: center;
+      font-size: 2rem;
 
       span {
         display: flex;
         align-items: center;
         justify-content: center;
         background-color: #000;
-        width: 2rem;
-        height: 2rem;
+        width: 3.5rem;
+        height: 3.5rem;
         margin-right: 0.5rem;
         border-radius: 50px;
 
         :hover {
-          background-color: orange;
+          background-color: #0077B6;
         }
 
         a {
@@ -214,7 +201,7 @@ const Profile = styled.div`
 const ArrowUp = styled.div`
   width: 2rem;
   height: 2rem;
-  background-color: #01be96;
+  background-color: #0077B6;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -270,8 +257,9 @@ const Form = styled.div`
     button {
       width: 5rem;
       height: 1.8rem;
-      background-color: #01be96;
+      background-color: #0077B6;
       border: none;
+      color: white;
       border-radius: 5px;
       filter: drop-shadow(0px 4px 5px #01be9551);
       cursor: pointer;

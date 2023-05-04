@@ -5,6 +5,7 @@ import Clients from "./components/Clients/Clients";
 import Footer from "./components/Footer/Footer";
 import Projects from "./components/Projects/Projects";
 import Services from "./components/Service/Services";
+import CallToAction from "./components/CallToAction/CallToAction";
 function App() {
   return (
     <Container>
@@ -18,8 +19,9 @@ function App() {
       </LightColor>
       <Clients />
       <LightColor>
-        <Footer />
+        <CallToAction/>
       </LightColor>
+      <Footer />
     </Container>
   );
 }

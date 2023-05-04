@@ -12,10 +12,10 @@ const Header = () => {
         </Logo>
         <Nav bar={bar}>
             <span><a href="#home">Welcome</a></span>
-            <span><a href="#service">My Story</a></span>
+            <span><a href="#service">My Skills</a></span>
             <span><a href="#project">Porfolio</a></span>
             <span><a href="#client">Testimonials</a></span>
-            <span><a href="#footer">Get Started</a></span>
+            <span><a href="#call">Get Started</a></span>
         </Nav>
         <div
         onClick={() => setBar(!bar)}

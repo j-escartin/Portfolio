@@ -7,37 +7,41 @@ import { Slide } from 'react-awesome-reveal';
 
 let clients = [
     {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 3,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
-    },
-    {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 4,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
-    },
-    {
-        name : "John Michel",
-        position : "web developer",
+        name : "Nico Revaldo Putra Erdi Ardiansa",
+        position : "Web Developer",
         img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
         stars : 5,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        disc : `I've worked together on assignments with James as a web developer and we've worked in teams 
+        on the front-end side. I really appreciate our collaboration because James has always shown great skill in 
+        solving technical problems and understanding tasks quickly.
+        In addition, James has the ability to learn new things very quickly and 
+        is always up for new challenges. Communication with James was always very effective and helpful, 
+        as he was able to present ideas clearly and was responsive to my feedback.`
     },
     {
-        name : "John Michel",
-        position : "web developer",
+        name : "Maria Carmen Torcende",
+        position : "Faculty",
         img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
         stars : 5,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        disc : ` James Vincent Escartin, a former student of mine in Sisters of Mary School-Boystown during his Junior and 
+        Senior High School years, possessed unique strengths and weaknesses. His proficiency in writing stood out as evident 
+        in his well-crafted and well-organized outputs. Additionally, he exhibited leadership qualities by efficiently managing
+        his time and utilizing school resources to his advantage. James' contributions to the class and the school community were
+         noteworthy, making him a valuable member overall.`
     },
+    {
+        name : "Nico Revaldo Putra Erdi Ardiansa",
+        position : "Web Developer",
+        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
+        stars : 5,
+        disc : `I've worked together on assignments with James as a web developer and we've worked in teams 
+        on the front-end side. I really appreciate our collaboration because James has always shown great skill in 
+        solving technical problems and understanding tasks quickly.
+        In addition, James has the ability to learn new things very quickly and 
+        is always up for new challenges. Communication with James was always very effective and helpful, 
+        as he was able to present ideas clearly and was responsive to my feedback.`
+    },
+    
 ]
 var settings = {
     dots: true,
@@ -83,8 +87,8 @@ const Clients = () => {
   return (
     <Container id='client'>
         <Slide direction="left">
-            <span className="green">testimonials</span>
-            <h1>what clients say</h1>
+            <span className="text-blue">testimonials</span>
+            <h1>What others says to me</h1>
         </Slide>
         <Testimonials>
             <Slider ref={arrowRef} {...settings}>
@@ -149,7 +153,7 @@ const Container = styled.div`
     }
     
     .slick-dots li.slick-active button{
-        background: #01be96;
+        background: #90E0EF;
         width: 15px;
     }
 
@@ -171,7 +175,7 @@ const Buttons = styled.div`
         background-color: transparent;
         margin-left: 0.5rem;
         border: none;
-        color: #01be96;
+        color: #90E0EF;
         cursor: pointer;
         font-size: 1.1rem;
     }

@@ -12,6 +12,7 @@ import module6 from "../../img/m6.png";
 import module7 from "../../img/m7.png";
 import module8 from "../../img/m8.png";
 import module9 from "../../img/m9.png";
+import module9API from "../../img/m9api.png";
 
 
 
@@ -24,35 +25,47 @@ let data = [
     {
         img : module2,
         disc : "MCQ System",
-        link: ""
+        link: "https://github.com/j-escartin/MCQ-System.git"
     },
     {
         img : module3,
-        disc : "UI Design for by ABC Jobs Pte Ltd"
+        disc : "UI Design for by ABC Jobs Pte Ltd",
+        link: "https://github.com/j-escartin/UI-ABC-Jobs.git"
     },
     {
         img : module4,
-        disc : "ABC Jobs Pte Ltd. Database Design"
+        disc : "ABC Jobs Pte Ltd. Database Design",
+        link : "https://github.com/j-escartin/Database-Design-ABC-Jobs.git"
     },
     {
         img : module5,
-        disc : "Develop and Implemented ABC Jobs Pte Ltd."
+        disc : "Develop and Implemented ABC Jobs Pte Ltd.",
+        link : "https://github.com/j-escartin/abcjobs-master.git"
     },
     {
         img : module6,
-        disc : "Tripple-A  Website"
+        disc : "Tripple-A  Website",
+        link : "https://github.com/j-escartin/Tripple-A-Website.git"
     },
     {
       img : module7,
-      disc : "ABC Cars Pte Ltd Portal"
+      disc : "ABC Cars Pte Ltd Portal",
+      link : "https://github.com/j-escartin/ABC-Cars.git"
     },
     {
       img : module8,
-      disc : "Know Your Neighborhood Website"
+      disc : "Know Your Neighborhood Website",
+      link : "https://github.com/j-escartin/Know-Your-Neighborhood.git"
      },
      {
       img : module9,
-      disc : "Meals on Wheels Web Application"
+      disc : "Meals on Wheels Web Application UI",
+      link : "https://github.com/Clouza/meals-on-wheels-ui.git"
+     },
+     {
+      img : module9API,
+      disc : "Meals on Wheels Web Application API",
+      link : "https://github.com/Clouza/meals-on-wheels-api.git"
      }
 ];
 
