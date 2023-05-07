@@ -30,16 +30,16 @@ let clients = [
          noteworthy, making him a valuable member overall.`
     },
     {
-        name : "Nico Revaldo Putra Erdi Ardiansa",
-        position : "Web Developer",
+        name : "Dale Rollanos",
+        position : "Guidance Coordinator",
         img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
         stars : 5,
-        disc : `I've worked together on assignments with James as a web developer and we've worked in teams 
-        on the front-end side. I really appreciate our collaboration because James has always shown great skill in 
-        solving technical problems and understanding tasks quickly.
-        In addition, James has the ability to learn new things very quickly and 
-        is always up for new challenges. Communication with James was always very effective and helpful, 
-        as he was able to present ideas clearly and was responsive to my feedback.`
+        disc : `I was particularly impressed by James's proposal to streamline and organize 
+        the records of our Guidance and Counseling Center (GCC). This initiative holds significant
+        importance as it enables us to efficiently monitor student performance, ensuring better service delivery 
+        and prompt action to meet their individual needs. James's proposal to implement a systematic data management
+        system for the GCC showcases his commitment to enhancing our community's well-being. His dedication
+        make him invaluable to our community.`
     },
     
 ]
