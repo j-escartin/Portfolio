@@ -27,8 +27,12 @@ const ProfComponent = () => {
               I specialize in delivering high-quality software solutions that exceed expectations.
               Let's collaborate and bring your vision to life! 
             </p>
-            <button>Resume</button>
-            <button>Intro Video</button>
+            <button>
+              <a href="https://www.dropbox.com/s/lwbxcisy6y68am5/JamesVincentEscartin-Resume3rd%20Draft.pdf?dl=0">Resume</a>
+            </button>
+            <button>
+              <a href="https://vimeo.com/824436839?share=copy">Intro Video</a>
+            </button>
           </Texts>
         </Slide>
         <Slide direction="right">
@@ -102,6 +106,11 @@ const Texts = styled.div`
     color: #fff;
     font-weight: 500;
     }
+  }
+  a {
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none
   }
 `;
 
