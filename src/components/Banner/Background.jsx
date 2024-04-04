@@ -22,12 +22,13 @@ const Background = () => {
             <h1 className="text-blue">Background</h1>
             <br/>
             <p>
-              I'm a budding software engineer currently pursuing an Applied Degree in Software Engineering at Lithan Academy 
-              and soon to take a Bachelor's Degree in Computer Science at Roehampton University. I recently graduated 
-              from Sisters of Mary School-Boystown, Inc. with a strong passion for technology and a desire to make a difference 
-              in the world of software engineering. Throughout my time at Lithan Academy, I am gaining valuable hands-on experience 
-              developing software solutions for real-world problems, using programming languages such as Java. I'm excited to continue 
-              building on this foundation and further develop my skills as a software engineer.
+            I'm an esteemed Software Engineer currently studying for an Applied Degree in Software Engineering from Lithan Academy Singapore,
+            where I've gained a strong foundation in the fundamentals of software engineering. 
+            Concurrently, I work at Smmile Digital Singapore as a Software Engineer. <br />
+
+            Outside of work, I have a passion for exploring new technologies and solving real-life problems. 
+            I enjoy bringing together teams of volunteers to learn and collaborate on projects. 
+            Additionally, I have a keen interest in studying leadership, personal development, relationships, finance, and business.
             </p>
           </Texts>
         </Slide>

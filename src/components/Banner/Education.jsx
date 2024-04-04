@@ -3,51 +3,57 @@ import styled from "styled-components";
 import { Slide } from "react-awesome-reveal";
 
 
-const Experience = () => {
+const Education = () => {
   return(
     <>
       <Container>
         <Slide direction="left">
-          
-         <Profile>
-            <img
-              src="https://cdn3d.iconscout.com/3d/premium/thumb/panorama-experience-4787848-3986060.png"
-              alt="profile"
-            />
-          </Profile>
-        </Slide>
-        <Slide direction="right">
           <Texts>
-            <h4>Software Engineer @ Smmile Digital Singapore<br/>
-              July 2023 – Present | Full Time
+            <h4>Lithan Academy - Singapore<br/>
+              Applied Degree in Software Engineering, Computer Science <br />
+              June 2022 - June 2024
             </h4>
             <p>
               <ul>
                 <li>
-                  Designed and spearheaded the implementation of new features, 
-                  enabling the software to offer enhanced functionality and meet client requirements.
+                  Coming Soon!
+                </li>
+              </ul>
+            </p> <br />
+
+            <h4>Sisters of Mary School-Boystown, Inc. - Cebu, Philippines<br/>
+              Secondary, Technical Vocational- Mechatronics Technology <br />
+              June 2016 - June 2022
+            </h4>
+            <p>
+              <ul>
+                <li>
+                  Earned the Bronze Medal in Mechatronics at the prestigious Philippine National Skills Competition in 2021.
                 </li>
                 <li>
-                  Resolved bugs and improved the coding structure of the program, 
-                  resulting in a robust and efficient system. Optimized software architecture ensures better scalability, 
-                  providing enhanced performance and a smoother user experience.
+                  Garnered the title of Best in Mechatronics as a result of winning a highly competitive National Level Competition.
                 </li>
                 <li>
-                  Conducted research and tested new technology to provide innovative solutions for company needs and potential future products.
-                </li>
-                <li>
-                  Technologies: Php, Python, Javascript, React Framework, NextJs, MySQL, Docker
+                  Graduated with Honours and achieved a remarkable percentile rank of 99.7% out of 317 students.
                 </li>
               </ul>
             </p>
           </Texts>
+        </Slide>
+        <Slide direction="right">
+         <Profile>
+            <img
+              src="https://cdn3d.iconscout.com/3d/premium/thumb/businessman-with-vision-4999857-4165683.png"
+              alt="profile"
+            />
+          </Profile>
         </Slide>
       </Container>
     </>
   )
 }
 
-export default Experience;
+export default Education;
 
 const Container = styled.div`
 display: flex;

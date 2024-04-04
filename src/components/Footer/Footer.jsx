@@ -26,7 +26,7 @@ const Footer = () => {
             <h1>Address:</h1>
           </Slide>
           <Slide direction="left">
-            <p>Tungkop, Minglanilla, Cebu, Philippines</p>
+            <p>Kauran, Ampatuan, Maguindanao, Philippines</p>
           </Slide>
         </div>
         <div className="links">

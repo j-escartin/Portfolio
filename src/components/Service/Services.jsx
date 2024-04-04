@@ -1,18 +1,19 @@
 import React from "react";
-import { MdDesignServices } from "react-icons/md";
-import { FiCodesandbox } from "react-icons/fi";
-import { CgWebsite } from "react-icons/cg";
+
 import styled from "styled-components";
 import Card from "./Card";
 import { Slide } from "react-awesome-reveal";
 import Java from "../../img/java.png";
-import OOP from "../../img/oop.png";
-import Data from "../../img/datastructure.png";
-import MySQL from "../../img/mysql.png";
 import ReactLogo from "../../img/react.png";
-import Postman from "../../img/postman.png";
 import Spring from "../../img/spring.png";
-import Github from "../../img/github.png"
+import Js from "../../img/js.png";
+import Ts from "../../img/ts.png";
+import Php from "../../img/php.png";
+import Py from "../../img/python.png";
+import Flutter from "../../img/flutter.png";
+import Go from "../../img/go.png";
+import Docker from "../../img/docker.png";
+import Tailwind from "../../img/tailwind.png";
 
 const Services = () => {
   return (
@@ -21,75 +22,93 @@ const Services = () => {
         <h4>
           My <span className="text-blue">Skills</span>
         </h4>
-        <h1>What I Learn and Do</h1>
+        <h1>I'm decent at</h1>
       </Slide>
       <Cards>
         <Slide direction="left">
           <Card
             imgsrc={Java}
-            title={"Proficiency in Programming Language"}
-            disc={`Proficient in Java with experience in developing and maintaining software applications using these language.`}
+            title={"Java Language"}
           />
         </Slide>
-        <Slide direction="up">
+        
+        <Slide direction="left">
           <Card
-            imgsrc={OOP}
-            title={"Object-Oriented Programming"}
-            disc={`Strong understanding of object-oriented programming principles 
-                  and ability to design and implement applications.`}
+            imgsrc={ReactLogo}
+            title={"React Framework"}
           />
         </Slide>
-        <Slide direction="up">
-          <Card
-            imgsrc={Data}
-            title={"Web Algorithms and Data Structure"}
-            disc={`Experience in developing algorithms and data structures 
-                to solve complex problems and improve performance.`}
-          />
-        </Slide>
+        
         <Slide direction="right">
           <Card
-            imgsrc={MySQL}
-            title={"Database Design and Management"}
-            disc={`Proficient in SQL and experienced in working with MySQL database management systems`}
+            imgsrc={Spring}
+            title={"Spring Framework"}
+          />
+        </Slide>
+
+        <Slide direction="right">
+          <Card
+            imgsrc={Js}
+            title={"Javascript"}
+          />
+        </Slide>
+        
+        <Slide direction="left">
+          <Card
+            imgsrc={Ts}
+            title={"Typescript"}
+          />
+        </Slide>
+        
+        <Slide direction="left">
+          <Card
+            imgsrc={Php}
+            title={"Php Langauage"}
+          />
+        </Slide>
+
+        <Slide direction="right">
+          <Card
+            imgsrc={Py}
+            title={"Python Langauage"}
+          />
+        </Slide>
+      </Cards>
+      <Slide direction="down">
+        <br /><br />
+        <h4>
+          My <span className="text-blue">Skills</span>
+        </h4>
+        <h1>I've touched before</h1>
+      </Slide>
+      <Cards>
+        <Slide direction="right">
+          <Card
+            imgsrc={Tailwind}
+            title={"Tailwind Css"}
           />
         </Slide>
 
         <Slide direction="left">
           <Card
-            imgsrc={ReactLogo}
-            title={"Web Development"}
-            disc={`Skilled in front-end web development using HTML, CSS, and JavaScript, 
-            as well as experience with React and Angular.`}
+            imgsrc={Docker}
+            title={"Docker"}
           />
         </Slide>
-        <Slide direction="up">
+        
+        <Slide direction="left">
           <Card
-            imgsrc={Postman}
-            title={"Testing and Debugging"}
-            disc={`Skilled in software testing and debugging to identify and fix bugs
-             and ensure the quality of the final product.`}
+            imgsrc={Flutter}
+            title={"Flutter"}
           />
         </Slide>
-        <Slide direction="up">
-          <Card
-            imgsrc={Github}
-            title={"Version Control"}
-            disc={`Proficient in using Git for version control and collaborated with other developers using GitHub.`}
-          />
-        </Slide>
+        
         <Slide direction="right">
           <Card
-            imgsrc={Spring}
-            title={"Security"}
-            disc={`Familiar with secure coding practices, including encryption, access control
-             to protect applications from cyber threats.`}
+            imgsrc={Go}
+            title={"Go Language"}
           />
-        </Slide>
-
-        
-        
-
+        </Slide>          
       </Cards>
     </Container>
   );

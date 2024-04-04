@@ -6,6 +6,10 @@ import Footer from "./components/Footer/Footer";
 import Projects from "./components/Projects/Projects";
 import Services from "./components/Service/Services";
 import CallToAction from "./components/CallToAction/CallToAction";
+import WorkExperience from "./components/Banner/WorkExperience";
+import EducationBackground from "./components/Banner/EducationBackground";
+import WorkProjects from "./components/Banner/WorkProjects";
+import HobbyExperience from "./components/Banner/HobbyExperience";
 function App() {
   return (
     <Container>
@@ -15,13 +19,21 @@ function App() {
       </Banner>
       <Services />
       <LightColor>
-        <Projects />
+        <WorkExperience/>
       </LightColor>
-      <Clients />
+        <EducationBackground/>
       <LightColor>
-        <CallToAction/>
+      <WorkProjects/>
       </LightColor>
-      <Footer />
+      <Projects />
+      <LightColor>
+        <HobbyExperience/>
+      </LightColor>
+      <CallToAction/>
+      <LightColor>
+        <Footer />
+      </LightColor>
+ 
     </Container>
   );
 }

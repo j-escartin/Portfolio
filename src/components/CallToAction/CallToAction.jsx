@@ -14,10 +14,7 @@ const CallToAction = () => {
             <h1 className="text-blue">Ready to take your project to the next level? </h1>
             <br/>
             <p>
-              Let's chat! Contact me today to schedule a free 
-              consultation and find out how I can help you turn your vision into reality. Whether you need a custom software 
-              solution, a sleek user interface, or a robust backend system, I have the skills and expertise to bring your project 
-              to life. Don't wait – act now and let's create something amazing together!
+              Let's chat and connect!
             </p>
           </Texts>
         </Slide>
