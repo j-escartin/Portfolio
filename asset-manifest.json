@@ -1,33 +1,40 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.ede403a2.css",
-    "main.js": "/Portfolio/static/js/main.04c0c4ef.js",
+    "main.js": "/Portfolio/static/js/main.5e7d322b.js",
     "static/media/m8.png": "/Portfolio/static/media/m8.efb5a5b0ae7b87e1cbbb.png",
+    "static/media/monitoring.png": "/Portfolio/static/media/monitoring.e39f5b3d8f67daf66d4f.png",
     "static/media/m7.png": "/Portfolio/static/media/m7.16b1400ff61b22320689.png",
     "static/media/m9.png": "/Portfolio/static/media/m9.e3d991628130bcb6a1c9.png",
+    "static/media/smartzhongyi.png": "/Portfolio/static/media/smartzhongyi.1c909e9f1b27a870710f.png",
     "static/media/profilewithicon.png": "/Portfolio/static/media/profilewithicon.676d1f4739b207412c70.png",
     "static/media/m1.png": "/Portfolio/static/media/m1.fb372da540547fb0d599.png",
+    "static/media/go.png": "/Portfolio/static/media/go.99e36008353f1557cd8a.png",
+    "static/media/python.png": "/Portfolio/static/media/python.4f5f52c67194dc46e313.png",
     "static/media/aboutProfile.png": "/Portfolio/static/media/aboutProfile.11276e24dc6c30d6cb4d.png",
-    "static/media/postman.png": "/Portfolio/static/media/postman.7fedeaff79947348538e.png",
     "static/media/m9api.png": "/Portfolio/static/media/m9api.caa616f913a918fc549f.png",
-    "static/media/mysql.png": "/Portfolio/static/media/mysql.167c88550478e6f0f85c.png",
     "static/media/m5.png": "/Portfolio/static/media/m5.815365059c467b615931.png",
+    "static/media/tailwind.png": "/Portfolio/static/media/tailwind.d5abcf62e57cbbee357e.png",
+    "static/media/meeting.webp": "/Portfolio/static/media/meeting.b143b270d8d84f86db30.webp",
     "static/media/m2.png": "/Portfolio/static/media/m2.0fe9130e5e27d8aa82c9.png",
+    "static/media/php.png": "/Portfolio/static/media/php.d7c9415b8f28d13a3d79.png",
     "static/media/m4.png": "/Portfolio/static/media/m4.48acab2ef57cc2aef0f2.png",
     "static/media/m3.png": "/Portfolio/static/media/m3.b9615ff63139b2157fed.png",
     "static/media/m6.png": "/Portfolio/static/media/m6.93ab62fa5456b4454b4f.png",
     "static/media/java.png": "/Portfolio/static/media/java.4e332879122f609caa57.png",
-    "static/media/oop.png": "/Portfolio/static/media/oop.bf8575b278d9dcbbd35e.png",
-    "static/media/datastructure.png": "/Portfolio/static/media/datastructure.40fd3077b249f7a18f40.png",
+    "static/media/docker.png": "/Portfolio/static/media/docker.f367f2dc7e5d0aaafb0a.png",
+    "static/media/szypatientportal.png": "/Portfolio/static/media/szypatientportal.e5a5f4bd1602948dafdb.png",
     "static/media/spring.png": "/Portfolio/static/media/spring.20c30e27b11bbae88df1.png",
     "static/media/react.png": "/Portfolio/static/media/react.20adfb35ae6a6e5817bf.png",
-    "static/media/github.png": "/Portfolio/static/media/github.987334e9f782cc505f25.png",
+    "static/media/flutter.png": "/Portfolio/static/media/flutter.dbdc2d0fb1e412b2a369.png",
+    "static/media/ts.png": "/Portfolio/static/media/ts.0fcbb75905fe136be1a3.png",
+    "static/media/js.png": "/Portfolio/static/media/js.dafbcd7fb56fcfce553c.png",
     "index.html": "/Portfolio/index.html",
     "main.ede403a2.css.map": "/Portfolio/static/css/main.ede403a2.css.map",
-    "main.04c0c4ef.js.map": "/Portfolio/static/js/main.04c0c4ef.js.map"
+    "main.5e7d322b.js.map": "/Portfolio/static/js/main.5e7d322b.js.map"
   },
   "entrypoints": [
     "static/css/main.ede403a2.css",
-    "static/js/main.04c0c4ef.js"
+    "static/js/main.5e7d322b.js"
   ]
 }
