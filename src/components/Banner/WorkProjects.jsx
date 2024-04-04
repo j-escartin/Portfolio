@@ -8,7 +8,7 @@ import szypatientportal from "../../img/szypatientportal.png";
 const WorkProjects = () => {
   return(
     <>
-      <Container>
+      <Container id='project'>
         <Slide direction="left">
           <Texts>
             <h3 className="text-blue">Work Projects</h3>
