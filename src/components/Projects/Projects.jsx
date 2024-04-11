@@ -5,7 +5,7 @@ import { Zoom } from 'react-awesome-reveal';
 
 const Projects = () => {
   return (
-    <Container id='project'>
+    <Container>
         <Zoom>
             <h1>School <span className="text-blue">Projects</span></h1>
             <p>The following are my project that involved developing a scalable application using modern front-end 

@@ -31,7 +31,7 @@ const ProfComponent = () => {
             Additionally, I have a keen interest in studying leadership, personal development, relationships, finance, and business.
             </p>
             <button>
-              <a href="https://www.dropbox.com/s/lwbxcisy6y68am5/JamesVincentEscartin-Resume3rd%20Draft.pdf?dl=0">Resume</a>
+              <a href="https://www.dropbox.com/scl/fi/rd6pzwtpft1vn3llys1g4/JamesVincentEscartin-Resume-april-2024.pdf?rlkey=clv3db0d9n82ebgmp0vydjfd2&dl=0">Resume</a>
             </button>
           </Texts>
         </Slide>
